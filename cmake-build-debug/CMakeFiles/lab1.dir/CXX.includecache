@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/basileo/CLionProjects/lab1/MyString.h
-iostream
--
-cstring
--
-
 /home/basileo/CLionProjects/lab1/main.cpp
 iostream
 -
-MyString.h
-/home/basileo/CLionProjects/lab1/MyString.h
 

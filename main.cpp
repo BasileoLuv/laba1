@@ -1,19 +1,24 @@
 #include <iostream>
-#include "MyString.h"
 
 using namespace std;
 
-int main()
-{
-    cout << "Выполнил студент группы 9005 Басилая Андрей Карлович"<<endl;
-    cout << "Введите текст"<<endl;
-    int size = 100;
-    char str[size];
-    cin.getline(str, size - 1);
-    MyString* str1 = new MyString(str);
-    str1->toUpper();
-    cout << "Полученный текст:"<<endl;
-    cout << str1->word << endl;
 
+int main(int argc, char* argv[])
+{   struct State {
+        char marker = ' ';
+        char text[1000];
+    };
+    State state;
+
+    cout << "Выполнил студент группы "<<endl;
+    cout << "Введите текст"<<endl;
+    cin.getline(state.text, sizeof(state.text - 1));
+
+    for (int i = 0; state.text[i] != state.marker; i++)
+                if( state.text[i] <= 'z' && state.text[i] >= 'a')
+                {
+                    state.text[i] += 'A' - 'a';
+                    cout << state.text[i] << '\n';
+                }
     return 0;
 }

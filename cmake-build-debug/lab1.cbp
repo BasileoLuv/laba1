@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/basileo/CLionProjects/lab1/MyString.cpp">
-			<Option target="lab1"/>
-		</Unit>
-		<Unit filename="/home/basileo/CLionProjects/lab1/MyString.h">
-			<Option target="lab1"/>
-		</Unit>
 		<Unit filename="/home/basileo/CLionProjects/lab1/main.cpp">
 			<Option target="lab1"/>
 		</Unit>
