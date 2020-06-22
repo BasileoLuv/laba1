@@ -9,4 +9,6 @@
 /home/basileo/CLionProjects/lab1/main.cpp
 iostream
 -
+fstream
+-
 
